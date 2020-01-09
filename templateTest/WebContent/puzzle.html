@@ -197,7 +197,7 @@
 			$("#main").empty();
 			$("#bossImg").empty();
 			$("#main").append("<thead><tr><th>시간</th><th>Boss Name</th><th>Boss HP</th></tr></thead><tbody><tr><td id='timer'>180</td><td>Mew</td><td id='bossHp'>0</td></tr></tbody>")
-			$("#bossImg").append("<input type='image' id='mew' src='/puzzle/image/mew.jpg'>")
+			$("#bossImg").append("<input type='image' id='mew' src='image/mew.jpg'>")
 			$("#bossHp").text(bossHp);
 			
 			
@@ -218,7 +218,7 @@
 					console.log("if index : "+index);
 					$(".board").append("<tr></tr>");
 				}
-				$(".board").append("<td oncontextmenu='return false' ondragstart='return false' class='panel'><input class='pic card' type='image' src='image/"+item+"'><input class='ball card' type='image' src='/puzzle/image/ball.jpg'></td>");
+				$(".board").append("<td oncontextmenu='return false' ondragstart='return false' class='panel'><input class='pic card' type='image' src='image/"+item+"'><input class='ball card' type='image' src='image/ball.jpg'></td>");
 				$(".pic").attr("disabled", true); //카드 뒷면 클릭 방지
 			});
 			//<--------------------------------------->
@@ -331,7 +331,7 @@
 									console.log("if index : "+index);
 									$(".board").append("<tr></tr>");
 								}
-								$(".board").append("<td oncontextmenu='return false' ondragstart='return false' class='panel'><input class='pic card' type='image' src='/puzzle/image/"+item+"'><input class='ball card' type='image' src='/puzzle/image/ball.jpg'></td>");
+								$(".board").append("<td oncontextmenu='return false' ondragstart='return false' class='panel'><input class='pic card' type='image' src='image/"+item+"'><input class='ball card' type='image' src='image/ball.jpg'></td>");
 								$(".pic").attr("disabled", true); //카드 뒷면 클릭 방지
 							});
 							//게임을 시작하면 전체 카드의 뒷면을 3초간 보여줌
